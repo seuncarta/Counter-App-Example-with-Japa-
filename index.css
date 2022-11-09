@@ -1,0 +1,63 @@
+body {
+    /* background-color: #87A2FB; */
+    background-image: url("./pexels-jéshoots-253647.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    margin: 10px 0 1px;
+    color: #16213E;
+}
+
+h2 {
+    margin: 0 0 20px;
+    font-size: 50px;
+    color: #16213E;
+}
+
+p {
+    color: #D36B00;
+    font-size: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* background-color: #850E35; */
+}
+
+#increment-btn {
+    background-color: darkgoldenrod;
+}
+
+#decrement-btn {
+    background-color: darkred;
+}
+
+#save-btn {
+    margin-top: 30px;
+    background-color: darkgreen;
+}
+
+div {
+    background-color: white;
+    max-width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#entry-el {
+    font-weight: bold;
+}
