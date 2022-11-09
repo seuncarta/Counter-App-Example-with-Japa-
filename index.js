@@ -1,3 +1,4 @@
+
 var count = document.getElementById("count-el")
 var save = document.getElementById("entry-el")
 var totalNumberOfPeople = document.getElementById("total-el")
@@ -22,12 +23,22 @@ var saveButton = document.getElementById("save-btn")
 //     totalNumberOfPeople.innerHTML = `Total number of people inside the subway: ${count.innerText}` 
 // }) 
 
-saveButton.addEventListener("click", function(){
-    let countStr = `${count.innerText} - `
-    save.innerHTML += countStr
 
-    count.innerText = 0;
-    integer = 0;
+saveButton.addEventListener("click", function(){
+    // console.log(count.innerHTML);
+    // console.log(Number(save.innerHTML));
+    // console.log((save.innerHTML/1)+(count.innerHTML/1))
+
+    var numberOfPeople = Number(count.innerHTML)
+    var allPeople = Number(save.innerHTML);
+    if (numberOfPeople > 0){
+
+        document.getElementById("entry-el").innerHTML = allPeople += numberOfPeople
+
+        count.innerText = 0;
+        integer = 0;
+
+    }
 }) 
 
 
